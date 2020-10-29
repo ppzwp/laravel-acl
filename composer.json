@@ -16,11 +16,16 @@
             "name": "Ahsen M.",
             "homepage": "https://github.com/kodeine",
             "role": "Developer"
+        },
+	{
+            "name": "Syahril Zulkefli",
+            "homepage": "https://github.com/syahzul",
+            "role": "Developer"
         }
     ],
     "require": {
         "php": ">=7.2",
-        "illuminate/support": "^6.0|^7.0"
+        "illuminate/support": "^6.0|^7.0|^8.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^8.0",
@@ -39,9 +44,9 @@
     },
     "extra": {
 	    "laravel": {
-		    "providers": [
-                "Kodeine\\Acl\\AclServiceProvider"
-            ]
+		"providers": [
+                    "Kodeine\\Acl\\AclServiceProvider"
+            	]
 	    }
     }
 }
